@@ -210,6 +210,7 @@ docker-compose ps
    cd ../..
    go mod download
    go build -ldflags "-s -w" -o one-api
+   GOOS=linux GOARCH=amd64 go build -ldflags "-s -w" -o one-api
    ````
 2. 运行：
    ```shell
