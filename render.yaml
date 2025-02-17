@@ -4,8 +4,6 @@ services:
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
-    buildCommand: ""
-    startCommand: "/one-api"
     envVars:
       - key: GO_ENV
         value: production
